@@ -1,0 +1,45 @@
+/* 
+    display: flex| inline-flex;
+    --- quyết định có sử dụng layout flex hay không
+
+    flex-direction: row| column;
+    -----giúp thay đổi phương hướng của main axis
+    -----mặc điịnh là row-ngang, column: dọc
+
+    flex-wrap: nowrap| wrap| wrap-reverse;
+    ----- wrap: duùng để xuống dòng or lên dòng
+    -----wrap-reverse:dùng để thay đổi chiều hiển thị của cross start và end 
+
+    flex-basis: <length> 
+    ----set chiều manin size dựa theo main axis
+
+
+    justify-content: flex-start| flex-end| center| spase-between| space-around;
+    ------- dùng cho thẻ cha
+    -------- căn flex items
+
+    justify-self: flex-start| flex-end| center
+    
+    align-content: flex-start| flex-end| center
+    ---------- dùng cho thẻ cha (container) theo chiều của cross axis 
+
+    align-self: flex-start| flex-end| center
+    
+    flex-grow: <number>
+    --------- thay đôi kích thước main size theo chiều của main axis
+    
+
+    flex-shrink: <number>
+
+
+    flex: <number>
+    ------- shortcode: flex-basis, flex-grow, flex-shrink
+
+
+    flex-flow: <number>
+    ------- shortcode: flex-direction, flex wrap
+
+
+    order: <number>
+    -------- quyết định thứ tự hiển thị của flex itmes
+*/

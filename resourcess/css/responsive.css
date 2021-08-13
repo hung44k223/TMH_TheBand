@@ -1,0 +1,81 @@
+/* PC */
+@media (min-width: 64em) {
+
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width:63.9375em) {
+    
+}
+
+
+/* mobile */
+@media (max-width: 46.1875em) {
+
+    /* css chung */
+    #content .s-col-full{
+        width: 100% !important;
+    }
+    
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    
+    /* css section */
+    #header{
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn{
+        display: block;
+    }
+
+    #header .search-btn{
+        display: none;
+    }
+
+
+    #nav-menu{
+        display: block;
+    }
+
+    #nav-menu>li{
+        display: block;
+    } 
+
+    #nav-menu>li:first-child{
+        display: inline-block;
+    }
+    
+    #nav-menu .sub-nav-menu{
+        position: initial;
+        background-color: #333;
+    }
+
+    #nav-menu .sub-nav-menu a{
+        color: #fff;
+        padding: 1px 35px;
+    }
+
+    .contact-form{
+        margin-top: 16px;
+    }
+
+    .button{
+        width: 100%;
+        text-align: center;
+        }
+    
+    .contact-section .form-submit{
+        margin-top: 15px ;
+    }
+    
+    .contact-info{
+        margin-bottom: 25px;
+    }
+    
+    .contact-info p{
+        padding: 5px 0;
+    }
+
+}
